@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="keywords"
+        content="LocumDoc, Staffing, LocumDoc website" />
+    <meta name="description" content="Welcome to LocumDoc :: Doctor Staffing Made Easy" />
+   
+    
+    <!-- EXTERNAL FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap" rel="stylesheet">
+
+     <!-- ANIMATE ON SCROLL CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./img/LocumDoc Icon@150x.png" type="image/x-png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/main.js" defer></script>
+    <title>LocumDoc :: Doctor Staffing Made Easy</title>
+</head>
+<body class="min-h-screen w-full bg-alt-bg  text-black font-Default">
+
+
+
+
+   
+       <header class="sticky top-0 z-50 bg-white opacity-80  font-Default text-black   mx-auto">
+        <section class="mx-auto flex max-w-full items-center justify-between p-4">
+           <a class="navbar-brand font-bold" href="#"><img src="./img/LocumDoc Logo@150x.png" width="200px" alt=""></a>
+            <div class="  sm:shadow-none sm:p-0 sm:rounded-none p-3">
+                <button id="hamburger-button" class="relative  h-8 w-8 cursor-pointer text-xl md:hidden">
+                   
+                    <div
+                        class="absolute  top-4 -mt-0.5 h-1 w-6 rounded bg-slate-800  transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-slate-800 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-slate-800 after:transition-all after:duration-500 after:content-['']">
+                    </div>
+                </button>
+                <nav class="hidden  space-x-8 text-base md:block" aria-label="main">
+                    <a href="#home" class="w-full py-6 text-center hover:text-green-800">Home </a>
+                    <a href="#about" class="w-full py-6 text-center hover:opacity-90 hover:text-amber-800  ">About</a>
+                    <a href="#features" class="w-full py-6 text-center hover:opacity-90 hover:text-rose-800 ">Features</a>
+                    <a href="#how" class="w-full py-6 text-center hover:opacity-90 hover:text-green-800  ">How it works</a>
+                    <a href="#pricing" class="w-full py-6 text-center hover:opacity-90 hover:text-violet-800  ">Pricing </a>
+                    <a href="#contact" class="w-full py-3 text-center p-6 bg-green-600 text-white hover:opacity-90 hover:bg-green-700 rounded-3xl sm:w-32  ">Contact</a>
+                    
+                    
+                   
+                   
+                    
+                </nav>
+            </div>
+        </section>
+        <section id="mobile-menu"
+            class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-white text-black  text-3xl">
+            
+
+            <nav class="flex min-h-screen  flex-col items-center py-8" aria-label="mobile">
+                <a href="#home" class="w-full py-6 text-center hover:opacity-90"> Home</a>
+               
+                <a href="#about" class="w-full py-6 text-center hover:opacity-90">About</a>
+                <a href="#features" class="w-full py-6 text-center hover:opacity-90">
+                    Features</a>
+                <a href="#how" class="w-full py-6 text-center hover:opacity-90">How it works</a>
+                <a href="#pricing" class="w-full py-6 text-center hover:opacity-90">Pricing </a>
+                 <a href="#contact" class="w-1/2 py-3 text-center p-6 bg-green-600 text-white hover:opacity-90 hover:bg-green-700 rounded-3xl">Contact</a>
+                    
+                    
+               
+               
+                   
+               
+               
+               
+               
+                
+            </nav>
+        </section>
+    </header>
+
+
+    <main>
+ 
+
+  <div class="relative  isolate px-6 pt-14 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <h1 data-aos="zoom-in-up" data-aos-delay="400" class="text-4xl font-bold tracking-tight text-green-800 sm:text-6xl">Doctor Staffing Made Easy</h1>
+        <p data-aos="zoom-in-down" data-aos-delay="600" class="mt-6 text-lg leading-8 text-gray-600">An online platform to connect hospitals with locum (temporary) doctors who provide crucial adhoc cover.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a href="#" data-aos="zoom-out-up" data-aos-delay="800" class="rounded-xl flex  justify-center py-2 border-2 border-solid border-green-800 bg-white  px-2 sm:px-4 text-base  text-green-600 shadow-sm hover:text-white hover:bg-green-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"><i class="text-3xl sm:text-5xl  pr-2 fas fa-mobile-alt"></i>  <span class="text-sm" >Available on <br><span class="text-md sm:text-xl font-bold">App Store</span> </span>  </a>
+          <a href="#" data-aos="zoom-out-down" data-aos-delay="900" class="rounded-xl flex justify-center py-2 border-2 border-solid border-green-800 bg-white px-2  sm:px-4 text-base  text-green-600 shadow-sm hover:text-white hover:bg-green-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"><i class="text-3xl sm:text-5xl  pr-2 fab fa-google-play"></i>  <span class="text-sm" >Available on <br><span class=" text-md sm:text-xl font-bold">Google Play</span> </span>  </a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+      <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </div>
+
+
+
+
+
+ <div class="relative  isolate overflow-hidden bg-black py-24 sm:py-32">
+  <img data-aos="flip-up" data-aos-delay="400" src="./img/ashkan-forouzani-l-NIPb-9Njg-unsplash.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+  <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 data-aos="flip-down" data-aos-delay="400" class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+      <p data-aos="flip-up" data-aos-delay="400" class="mt-6 text-lg leading-8 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+    </div>
+    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+      <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+        <a data-aos="fade-up"
+     data-aos-duration="3000" href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
+        <a data-aos="fade-down"
+     data-aos-duration="3000" href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
+        <a data-aos="fade-up"
+     data-aos-duration="3000" href="#">Our values <span aria-hidden="true">&rarr;</span></a>
+        <a data-aos="fade-down"
+     data-aos-duration="3000" href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+        <div data-aos="fade-zoom-in"
+     data-aos-duration="6000" class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">Offices worldwide</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+         
+        </div>
+        <div data-aos="fade-zoom-out"
+     data-aos-duration="6000" class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">Full-time colleagues</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
+          
+        </div>
+        <div data-aos="fade-zoom-in"
+     data-aos-duration="6000" class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">Hours per week</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
+          
+        </div>
+        <div data-aos="fade-zoom-out"
+     data-aos-duration="6000" class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
+
+<div class="bg-white z-10 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div data-aos="fade-up"
+     data-aos-duration="3000" class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class="text-3xl font-bold tracking-tight text-violet-800 sm:text-5xl">What Does <span class="text-slate-900">LocumDoc</span>  Do?</h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600">Learn about our specialization.</p>
+    </div>
+    <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <article class="flex w-full sm:max-w-xl flex-col items-start justify-between">
+       
+        <div class="group relative ">
+          <img data-aos="zoom-in-up"
+          data-aos-duration="3000" class="mx-auto sm:mx-0" src="./img/icon 1.png" alt="">
+          <h3 data-aos="fade-down"
+          data-aos-duration="3000" class="mt-3 text-lg font-semibold text-center sm:text-start leading-6 text-gray-900 group-hover:text-gray-600">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Locum Shift
+            </a>
+          </h3>
+          <p data-aos="fade-up"
+     data-aos-duration="3000" class="mt-5 line-clamp-3 text-sm text-center sm:text-start leading-6 text-gray-600">Provide locum doctors who are onboarded on the platform with shifts around them.</p>
+        </div>
+       
+      </article>
+
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        
+        <div class="group relative">
+         <img data-aos="zoom-in-down"
+           data-aos-duration="3000" class="mx-auto sm:mx-0"  src="./img/icon 2.png" alt="">
+          <h3 data-aos="fade-down"
+            data-aos-duration="3000" class="mt-3 text-lg font-semibold text-center sm:text-start leading-6 text-gray-900 group-hover:text-gray-600">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Referral Bonus
+            </a>
+          </h3>
+          <p data-aos="fade-up"
+          data-aos-duration="3000" class="mt-5 line-clamp-3 text-sm text-center sm:text-start leading-6 text-gray-600">Enable doctors to earn a referral bonus when they onboard doctor colleagues to the platform. This will facilitate adoption through the various doctor networks.</p>
+        </div>
+        
+      </article>
+      
+
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        
+        <div class="group relative">
+           <img data-aos="zoom-in-up"
+     data-aos-duration="3000" class="mx-auto sm:mx-0"  src="./img/icon 3.png" alt="">
+          <h3 data-aos="fade-down"
+          data-aos-duration="3000" class="mt-3 text-center sm:text-start text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Digital Timesheet
+            </a>
+          </h3>
+          <p data-aos="fade-up"
+          data-aos-duration="3000" class="mt-5 text-center sm:text-start line-clamp-3 text-sm leading-6 text-gray-600">Provide digital timesheet services to ensure that doctors who do these locum shifts are captured digitally.</p>
+        </div>
+        
+      </article>
+        <article class="flex max-w-xl flex-col items-start justify-between">
+       
+        <div class="group relative">
+           <img data-aos="zoom-in-down"
+     data-aos-duration="3000" class="mx-auto sm:mx-0"  src="./img/icon 4.png" alt="">
+          <h3 data-aos="fade-up"
+             data-aos-duration="3000" class="mt-3 text-center sm:text-start text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Easy Payments
+            </a>
+          </h3>
+          <p data-aos="fade-down"
+     data-aos-duration="3000" class="mt-5 text-center sm:text-start line-clamp-3 text-sm leading-6 text-gray-600">Offer easy processing of payment for locum shifts for doctors ensuring that they get paid within 2 working days from completed shifts.</p>
+        </div>
+       
+      </article>
+
+
+     
+    </div>
+  </div>
+</div>
+
+
+
+   
+
+     <main class="mx-auto max-w-full">
+        <section id="hero"
+            class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center rounded-3xl text-white bg-black justify-center gap-8 p-6 sm:flex-row">
+            <article class=" w-full">
+                <h2 data-aos="zoom-up"
+                   data-aos-duration="3000"
+                    class="w-full sm:max-w-4xl py-3 text-start  text-2xl font-bold  sm:text-left"> 
+                      Why LocumDoc?
+                    
+                
+                </h2>
+                <p data-aos="fade-down"
+                 data-aos-duration="3000" class="mt-4 max-w-full text-start text-2xl sm:text-4xl leading-10  sm:text-left mb-12">
+                 <span data-aos="fade-up"
+                  data-aos-duration="4000" class="text-yellow-700">LocumDoc provides a platform to connect hospitals/agencies hassle-free who need locum covers </span> and locum doctors who need locum shifts without any third party involvements.
+                    
+                </p>
+                 <a data-aos="zoom-in"
+                data-aos-duration="3000" href="#" class="text-lg mt-12 text-center font-semibold leading-6 ">Learn more <span aria-hidden="true" class="text-yellow-700">→</span></a>
+
+                
+               
+            </article>
+            <img data-aos="zoom-out-up"
+     data-aos-duration="3000" class="sm:w-1/2 w-full" src="./img/doc3.png" alt="" width="500px" />
+        </section>
+
+        
+
+        <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+
+        <div class="bg-alt-bg py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 data-aos="flip-up"
+     data-aos-duration="3000" class="text-base font-semibold leading-7 text-rose-600">How it works</h2>
+      <p data-aos="flip-down"
+     data-aos-duration="3000" class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Three (3) Easy Steps</p>
+      <p data-aos="fade-up"
+     data-aos-duration="3000" class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+    </div>
+
+    <section id=""
+            class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center rounded-lg justify-center gap-8 p-6 sm:flex-row">
+            <article data-aos="fade-up"
+     data-aos-duration="3000"  class="sm:w-1/2 w-full">
+                      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+              <dl class="grid max-w-1/2">
+                <div class="relative pl-16">
+                  <dt class="text-2xl  font-semibold leading-7 text-gray-900">
+                    <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-rose-600">
+                      <i  class="bi bi-1-circle text-center text-2xl  text-white"></i>
+                    
+                    </div>
+                    Register
+                  </dt>
+                  <dd  class="mt-2 w-full text-base leading-7 text-gray-600">Any doctor licensed by the General Medical Council with a valid GMC Number can register to LocumDoc providing GMC license, Right to work and Medical Degree Certificate</dd>
+                </div>
+               
+
+                
+               
+            </article>
+            <img data-aos="fade-down"
+     data-aos-duration="3000" class="sm:w-1/5 w-full" src="./img/screen-2.png" alt="" width="200px" height="100px" />
+        </section>
+
+         <section id=""
+            class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center rounded-lg justify-center gap-8 p-6 sm:flex-row-reverse">
+            <article data-aos="fade-down"
+     data-aos-duration="3000" class="sm:w-1/2 float-right w-full">
+               <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-1/2 ">
+        <div class="relative pl-16 float-left">
+          <dt class="text-2xl   font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-rose-600">
+              <i class="bi bi-2-circle text-center text-2xl  text-white"></i>
+             
+            </div>
+            Find & Book
+           
+          </dt>
+          <dd class="mt-2 w-full text-base leading-7 text-gray-600">Search locum jobs in the locality within the specialty of your choosing. Select the shift that suites your rates and book.</dd>
+        </div>
+               
+
+                
+               
+            </article>
+            <img data-aos="fade-down"
+     data-aos-duration="3000" class="sm:w-1/5 w-full" src="./img/screen-5.png" alt="" width="200px" height="100px" />
+        </section>
+
+
+        <section id=""
+            class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center rounded-lg justify-center gap-8 p-6 sm:flex-row">
+            <article data-aos="fade-up"
+     data-aos-duration="3000" class="sm:w-1/2 float-right w-full">
+               <div class="mx-auto mt-16 max-w-full sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-1/2 ">
+        <div class="relative pl-16 float-left">
+          <dt class="text-2xl   font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-rose-600">
+              <i class="bi bi-3-circle text-center text-2xl  text-white"></i>
+
+             
+            </div>
+            It's Done, Do Your Shift
+            
+           
+          </dt>
+          <dd class="mt-2 w-full text-base leading-7 text-gray-600">Get confirmed by the hospital management and attend the shift and get paid</dd>
+        </div>
+               
+
+                
+               
+            </article>
+            <img data-aos="fade-down"
+     data-aos-duration="3000" class="sm:w-1/5 w-full" src="./img/28-Confirmation.png" alt="" width="200px" height="100px" />
+        </section>
+
+        <h2 data-aos="flip-up"
+     data-aos-duration="3000" class="text-4xl sm:text-5xl mt-24 w-full text-violet-800 text-center font-bold">Best &    <span class="text-slate-900"> Simple Pricing</span></h2>
+        <p data-aos="flip-down"
+     data-aos-duration="3000" class="text-center my-6 text-xl">LocumDoc provides flexible plans that suites your needs</p>
+        <div class="content ">
+         
+      <div data-aos="zoom-in-up"
+     data-aos-duration="3000" class="card one">
+        <div class="top">
+          <div class="font-bold text-3xl sm:text-5xl">Basic</div>
+         
+          <div class="font-semibold text-center my-6"> 
+           
+            <span class=" text-2xl sm:text-4xl">£</span>
+            <span class="text-2xl sm:text-4xl">0</span>
+            <!-- <span class="decimal">/month</span> -->
+          </div>
+        </div> 
+        <img class="mx-auto" src="./img/standard.png" alt="">
+        <div class="info">Limited features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>Find Locum</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Book Shifts</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Manual Timesheet Entry</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Electronic Timesheet</span>
+            <i class="fas fa-times"></i>
+          </div>
+           <div class="one">
+            <span>2 Days Payments</span>
+            <i class="fas fa-times"></i>
+          </div>
+           <div class="one">
+            <span>Referral Tags and Bonuses</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Purchase</button>
+        </div>
+      </div>
+      <div data-aos="zoom-in-down"
+     data-aos-duration="3000" class="card two bg-violet-800 text-white">
+        <div class="">
+          <div class=" text-3xl sm:text-5xl font-bold">Gold</div>
+          <div class="my-3 font-semibold">
+            <span class="text-2xl sm:text-4xl">£</span>
+            <span class="text-2xl sm:text-4xl">29</span>
+            <span class="text-2xl sm:text-4xl">.99</span>
+            <span class="decimal">monthly</span>
+          </div>
+        </div>
+         <img class="mx-auto my-3" src="./img/unlimited.png" alt="">
+        <div class="info">Only some features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>Electronic Timesheet</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>2 Days Payment</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Referral Tags and Bonuses</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Earning Dashboard</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Purchase</button>
+        </div>
+      </div>
+      <div data-aos="zoom-out-up"
+     data-aos-duration="3000" class="card three">
+        <div class="top">
+          <div class="text-3xl sm:text-5xl font-bold">Platinum</div>
+           <div class="my-3 font-semibold">
+            <span class="text-2xl sm:text-4xl">£</span>
+            <span class="text-2xl sm:text-4xl">49</span>
+            <span class="text-2xl sm:text-4xl">.99</span>
+            <span class="decimal">monthly</span>
+          </div>
+          
+        </div>
+         <img class="mx-auto my-3" src="./img/premium.png" alt="">
+        <div class="info">All features you will get on this package or plan</div>
+        <div class="details">
+          <div class="one">
+            <span>Referral Tree - earn £0.5/hour worked by referred doctor</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Earning Dashboard</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <!-- <div class="one">
+            <span>Lifetime Tech Support</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Unlimited Data Transfer</span>
+            <i class="fas fa-check"></i>
+          </div> -->
+          <button>Purchase</button>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="zoom-in"
+     data-aos-duration="3000"class="globe mt-24">
+      <h2 class="text-4xl w-full sm:text-5xl text-rose-800 text-center font-bold"> <span class="text-slate-900">LocumDoc centers </span> all around the World</h2>
+        <p class="text-center my-6 text-xl">Location isn't a barrier, we get you matched as son as possible and hassle-free.</p>
+      <img class="w-full h-full" src="./img/wepik-export-20230526173729iLjR.png"  alt="">
+
+    </div>
+
+
+  <section class="my-6">
+    <h2 class="text-4xl sm:text-5xl mt-24 w-full text-amber-800 text-center font-bold">  Beautiful <span class="text-slate-900">Interfaces</span></h2>
+     <div class="slider owl-carousel owl-theme">
+      <div class="item">
+        <div class="img"><img src="./img/screen-2.png" alt=""></div>
+        
+      </div>
+      <div class="item">
+        <div class="img"><img src="./img/screen-5.png" alt=""></div>
+       
+      </div>
+       <div class="item">
+        <div class="img"><img src="./img/slide1.png" alt=""></div>
+       
+      </div>
+      <div class="item">
+        <div class="img"><img src="./img/screen-01.png" alt=""></div>
+       
+      </div>
+       <div class="item">
+        <div class="img"><img src="./img/slide4.png" alt=""></div>
+       
+      </div>
+       <div class="item">
+        <div class="img"><img src="./img/28-Confirmation.png" alt=""></div>
+       
+      </div>
+
+     
+     
+    </div>
+
+    <div class="owl-dots text-3xl">
+        <div class="owl-dot active"><span ></span></div>
+        <div class="owl-dot"><span></span></div>
+        <div class="owl-dot"><span></span></div>
+    </div>
+
+  </section> 
+ <h2 class="text-4xl sm:text-5xl my-24 w-full text-violet-800 text-center font-bold"> <span class="text-slate-900">FAQS </span> - Frequently Asked Questions</h2>
+  <div class="accordion mx-auto">
+    
+        <div class="accordion-content">
+            <header>
+                <span class="title">How long will it take to verify my profile?</span>
+                <i class="fas fa-solid fa-plus text-xl"></i>
+            </header>
+
+            <p class="description">
+                We are committed to ensuring the quality and accuracy of our LocumDoc services, which is why we will verify your Doctor's profile within 24 hours of submission. Once your profile has been verified, you will be able to begin using our services. We appreciate your patience and understanding as we work to ensure the integrity of our platform, and we thank you for choosing LocumDoc as your healthcare provider.
+            </p>
+        </div>
+
+        <div class="accordion-content">
+            <header>
+                <span class="title">How to get my payment after the Shift?</span>
+                <i class="fas fa-solid fa-plus text-xl"></i>
+            </header>
+
+            <p class="description">
+                We would like to inform you that your payment will be processed once we have received your timesheet and verified it with the hospitals. To expedite the payment process, we encourage you to consider upgrading to our premium plans, which allow for faster processing of timesheets through electronic submission. We strive to provide our healthcare providers with timely and accurate payments for their services, and we appreciate your cooperation in helping us achieve this goal. Thank you for using our services.
+            </p>
+        </div>
+        
+        <div class="accordion-content">
+            <header>
+                <span class="title">Can I cancel my shift at the last minute?</span>
+                <i class="fas fa-solid fa-plus text-xl"></i>
+            </header>
+
+            <p class="description">
+                We kindly request that doctors provide at least 72 hours' notice prior to cancelling a scheduled shift. If cancellation occurs later than this, a negative credit of £30 will be applied and deducted from the doctor's next shift payment. We understand the importance of the healthcare sector and the critical role it plays in our lives, and we rely on our doctors to fulfill their commitments to our community. We appreciate your dedication and commitment to providing healthcare services through our app.
+            </p>
+        </div>
+    </div>
+    
+    
+  
+
+ <footer class="flex w-full font-Default text-md  sm:flex-row flex-col p-6 justify-between gap-4 items-start sm:items-center text-start mt-36 mb-12  text-slate-900">
+
+                 <div class="py-8 leading-8">
+                <h3 class=""><img src="./img/LocumDoc Logo@150x.png" width="200"></h3>
+                <p>info@locumdoc.io</p>
+                <p>+447869467057</p>
+                <p>1st Floor, North Westgate House, Harlow,</p>
+                <p>Essex. CM20 1YS</p>
+                 <div class="flex flex-row gap-4 items-start justify-start">
+                    <a href="" class=" mt-2 text-2xl text-purple-800 shadow-3xl shadow-black"><i class="fab fa-facebook-f hover:text-violet-600"></i></a>
+                    <a href="" class=" mt-2 text-2xl text-violet-800 shadow-3xl shadow-black"><i class="fab fa-instagram hover:text-violet-600"></i></a>
+                    <a href="" class=" mt-2 text-2xl text-purple-800 shadow-3xl shadow-black"><i class="fab fa-twitter hover:text-violet-600"></i></a>
+                    <a href="" class=" mt-2 text-2xl text-violet-800 shadow-3xl shadow-black"><i class="fab fa-pinterest-p hover:text-violet-600"></i></a>
+                    </div>
+               
+            </div>
+                <div class="sm:py-8 py-6 leading-8 my-3 mb-6 sm:my-12 sm:mb-20">
+                    <h3 class="text-3xl font-bold text-slate-800 mb-6">Useful Links</h3>
+                    <p><a class="hover:underline" href="">Home</a></p>
+                    <p><a class="hover:underline"  href="">About Us</a></p>
+                    <p><a class="hover:underline"  href="">Contact Us</a></p>
+                </div>
+                 <div class="sm:py-8 py-6 leading-8 my-3 mb-6 sm:my-12 sm:mb-20">
+                    <h3 class="text-3xl font-bold text-slate-800 mb-6">Help & Support</h3>
+                    <p><a class="hover:underline" href="">How it works</a></p>
+                    <p><a class="hover:underline"  href="">Terms & Conditions</a></p>
+                    <p><a class="hover:underline"  href="">Privacy Policy</a></p>
+                </div>
+                
+                 <div class="  ">
+                    <h3 class="text-3xl font-bold text-slate-800 mb-3">Let's try it</h3>
+                     <a href="#" class=" flex my-3 justify-center py-2 border-2 border-solid border-violet-800 bg-white  px-2 sm:px-4 text-base  text-violet-600 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"><i class="text-3xl sm:text-5xl  pr-2 fas fa-mobile-alt"></i>  <span class="text-sm" >Available on <br><span class="text-md sm:text-xl font-bold">App Store</span> </span>  </a>
+          <a href="#" class="rounded-xl flex justify-center py-2 border-2 border-solid border-violet-800 bg-white px-2  sm:px-4 text-base  text-violet-600 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-800"><i class="text-3xl sm:text-5xl  pr-2 fab fa-google-play"></i>  <span class="text-sm" >Available on <br><span class=" text-md sm:text-xl font-bold">Google Play</span> </span>  </a>
+                </div>
+               
+               
+                
+            </footer>
+
+
+
+        <a href="#" class="back-to-top d-flex  align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-circle-fill"></i></a>
+    </main>
+         
+
+        <script src="js/script.js"></script>
+         <script src="js/preload.js"></script>
+
+          <!-- ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ANIMATE ON SCROLL INIT -->
+    <script defer>
+        AOS.init();
+    </script>
+
+          <!-- jquery cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+      $('.slider').owlCarousel({
+        loop: true,
+        autoplay: true,
+        dotsEach:true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        responsive: {
+          0:{
+            items: 1
+
+          },
+          600: {
+            items: 2
+          },
+          1000:{
+            items: 5
+          },
+          1400:{
+            items: 5
+
+          }
+        }
+      });
+    </script>
+
+
+    
+</body>
+</html>
